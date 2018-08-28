@@ -27,9 +27,9 @@ The default parameter of fpTest1 is `census-test.csv`,So we can built it diretly
 	12.char *fpTest1="census-test.csv";
 
 After Implementation, you can find the the accuarcy rate in `cmd window` like the following picture
-![](https://ibb.co/eCyNV9)
+![](http://thyrsi.com/t6/364/1535462319x-1566684395.bmp)
 the content of the `weight_and_parameter.txt` like this.
-![](https://ibb.co/i21gOU)
+![](http://thyrsi.com/t6/364/1535462409x-1566684395.bmp)
 
  
 ## Evaluation
@@ -52,7 +52,7 @@ Data preprocessing, which corresponds to the `Datapreprocessing.h` and `Dataprep
 * I employ the one-hot trick to encode attribute  `sex ` and Huffman&one-hot code to encode others text attributes.(Huffman&one-hot code is the idea of Huffman coding.The same size code is divided into one class sharing the same code)
 
 * I implement a following scaling scheme  separately for each column,so that values after transformation are in the range of [0; 1]
-![](https://ibb.co/jxLxDU)
+![](http://thyrsi.com/t6/364/1535462453x-1566684395.bmp)
 
 * All the processed  values are merged in the order of attributes given by the header to obtain 28-dimensional feature vectors.
 
