@@ -1,0 +1,21 @@
+﻿生成启动时间为 2018/8/28 星期二 下午 12:07:20。
+     1>项目“E:\MSRA笔试题\assigmentMSRAFinally\assigmentMSRA\assigmentMSRA.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt main.c parameterSelection.c
+         parameterSelection.c
+     1>e:\msra笔试题\assigmentmsrafinally\assigmentmsra\parameterselection.c(151): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\msra笔试题\assigmentmsrafinally\assigmentmsra\parameterselection.c(170): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         main.c
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\MSRA笔试题\assigmentMSRAFinally\Debug\assigmentMSRA.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\MSRA笔试题\assigmentMSRAFinally\Debug\assigmentMSRA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MSRA笔试题\assigmentMSRAFinally\Debug\assigmentMSRA.lib" /MACHINE:X86 Debug\Datapreprocessing.obj
+         Debug\main.obj
+         Debug\parameterSelection.obj
+         Debug\processCsvFile.obj
+         Debug\testing.obj
+         assigmentMSRA.vcxproj -> E:\MSRA笔试题\assigmentMSRAFinally\Debug\assigmentMSRA.exe
+     1>已完成生成项目“E:\MSRA笔试题\assigmentMSRAFinally\assigmentMSRA\assigmentMSRA.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.43
